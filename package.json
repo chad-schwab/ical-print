@@ -1,0 +1,30 @@
+{
+  "name": "ical-print",
+  "version": "1.0.0",
+  "description": "Fetch an iCal/webcal subscription, filter events and produce a printable HTML file.",
+  "type": "module",
+  "bin": {
+    "ical-print": "./src/cli.mts"
+  },
+  "scripts": {
+    "cli": "node ./src/cli.mts"
+  },
+  "keywords": [
+    "ical",
+    "calendar",
+    "print",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "ical.js": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
